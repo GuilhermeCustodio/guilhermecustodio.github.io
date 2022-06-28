@@ -1,0 +1,17 @@
+body{
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    border-bottom: 1pt solid black;
+    top: 0px;
+    left: 0px;
+    background-color: gainsboro;
+}
+
+#logo{
+    width: 175px;
+    position: relative;
+    padding: 18px;
+}

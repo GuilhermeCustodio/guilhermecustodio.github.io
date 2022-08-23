@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/2ecb999166700457fac756f8943f9620?family=Morris+Sans);
+@import url('https://db.onlinewebfonts.com/c/2ecb999166700457fac756f8943f9620?family=Morris+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 
 * {
@@ -21,6 +21,15 @@ body{
     grid-template-areas:
         'header'
         'about';
+}
+
+.botaoBaixo{
+    color: white;
+    bottom: -17%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
 }
 
 #header{

@@ -6,7 +6,7 @@ function delay(milliseconds){
 
 async function init(){
   await delay(10000);
-  document.getElementById("body").style.backgroundImage = "url(IMG_20220701_145621.jpg)";
+  document.getElementById("header").style.backgroundImage = "url(IMG_20220701_145621.jpg.png)";
   console.log("Sucesso");
 }
 

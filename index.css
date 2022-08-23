@@ -1,3 +1,6 @@
+@import url(//db.onlinewebfonts.com/c/2ecb999166700457fac756f8943f9620?family=Morris+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -6,23 +9,35 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#body{
+#container{
     width: 100%;
-    position: absolute;
-    top: 0px;
+    position:absolute;
     left: 0px;
+    top: 0px;
+}
+
+#gridContainer{
+    display: grid;
+    grid-template-areas:
+        'header'
+        'about';
+}
+
+#header{
     height: 19cm;
-    background-image: url("IMG_20220701_145621.jpg.png");
+    background-image: url("DSC_0074.png");
     background-size: cover;
     background-repeat: no-repeat;
+    grid-area: header;
 }
 
 nav{
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0px;
     left: 0px;
     background-color: transparent;
+    border:solid;
 }
 
 nav i{
@@ -40,19 +55,38 @@ nav i{
 }
 
 #titulo{
-    position: relative;
-    border: none;
     top: 15%;
     width: 100%;
     color: white;
     text-align: center;
+    border: solid black;
 }
 
 #titulo h1{
     font-size: 100pt;
-    font-family:auto;
+    font-family: Morris Sans;
+    border: solid;
 }
 
 #titulo h2{
     font-size: 30pt;
+    font-family: Alumni Sans Pinstripe;
+    border: solid;
+}
+
+#historia{
+    color: white;
+    border: solid black;
+    grid-area: about;
+}
+
+/*Para tablets*/
+@media (min-width: 361px)and (max-width: 767px){
+	
+}
+
+
+/*Para smartphones*/
+@media (max-width:360px){
+	
 }

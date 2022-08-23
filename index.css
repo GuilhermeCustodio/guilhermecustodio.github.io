@@ -24,7 +24,7 @@ body{
 }
 
 #header{
-    height: 19cm;
+    height: 100vh;
     background-image: url("DSC_0074.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +37,6 @@ nav{
     top: 0px;
     left: 0px;
     background-color: transparent;
-    border:solid;
 }
 
 nav i{
@@ -59,24 +58,23 @@ nav i{
     width: 100%;
     color: white;
     text-align: center;
-    border: solid black;
 }
 
 #titulo h1{
     font-size: 100pt;
     font-family: Morris Sans;
-    border: solid;
 }
 
 #titulo h2{
     font-size: 30pt;
+    position: absolute;
+    width: 100%;
+    top: 45%;
     font-family: Alumni Sans Pinstripe;
-    border: solid;
 }
 
 #historia{
     color: white;
-    border: solid black;
     grid-area: about;
 }
 

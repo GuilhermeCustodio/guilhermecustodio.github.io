@@ -1,6 +1,8 @@
 @import url('https://db.onlinewebfonts.com/c/2ecb999166700457fac756f8943f9620?family=Morris+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 
+@font-face {font-family: "onlinewebfonts"; src: url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.eot"); src: url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.woff") format("woff"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.svg#onlinewebfonts") format("svg"); }
+
 * {
   box-sizing: border-box;
 }

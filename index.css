@@ -1,8 +1,5 @@
 @import url('https://db.onlinewebfonts.com/c/2ecb999166700457fac756f8943f9620?family=Morris+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
-
-@font-face {font-family: "onlinewebfonts"; src: url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.eot"); src: url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.woff") format("woff"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/073e41832fbb18ca3c80dfe0b4c73355.svg#onlinewebfonts") format("svg"); }
-
 * {
   box-sizing: border-box;
 }
@@ -32,6 +29,7 @@ body{
     margin: auto;
     text-align: center;
     position: relative;
+    opacity: 80%;
 }
 
 #header{
@@ -82,6 +80,10 @@ nav i{
     width: 100%;
     top: 45%;
     font-family: Alumni Sans Pinstripe;
+}
+
+#titulo h3 {
+    font-family: Moris Sans;
 }
 
 #historia{
